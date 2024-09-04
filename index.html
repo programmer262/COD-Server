@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="./COD.png" type="image/x-icon">
+    <title>COD Server</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/42e1fca473.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+.gr-1{background:linear-gradient(170deg, #01E4F8 0%, #1D3EDE 100%)}
+.gr-2{background:linear-gradient(170deg, #B4EC51 0%, #429321 100%)}
+.gr-3{background: linear-gradient(170deg, #C86DD7 0%, #3023AE 100%);}
+
+*{transition: .5s;}
+
+.h-100{height: 100vh !important;}
+.align-middle{
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.column{
+  margin-top:3rem;
+  padding-left:3rem;
+  &:hover{
+    padding-left:0;
+    .card .txt{
+      margin-left:1rem;
+      h1, p{
+        color:rgba(255,255,255,1);
+        opacity:1;
+      }
+    }
+    a{
+      color:rgba(255,255,255,1);
+      &:after{
+      width: 10%;
+      }
+    }
+  }
+}
+.card{
+  min-height:170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color:rgb(255, 253, 253);
+  letter-spacing: .05rem;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0 21px rgba(0,0,0,.27);
+  .txt{
+    margin-left:-3rem;
+    z-index: 1;
+    h1{
+      font-size:1.5rem;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    p{
+      font-size:.7rem;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0rem;
+      margin-top:33px;
+      opacity:0;
+      color:rgba(255,255,255,1);
+    }
+  }
+  a{
+    z-index:3;
+    font-size: .7rem;
+    color:rgba(0,0,0,1);
+    margin-left:1rem;
+    position:relative;
+    bottom: -.5rem;
+    text-transform: uppercase;
+    &:after {
+      content:"";
+      display: inline-block;
+      height: 0.5em;
+      width: 0;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 1px solid rgba(255,255,255,1);
+      transition: .5s;
+    }
+  }
+  .ico-card{
+    position:absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  i{
+    position: relative;
+    right: -50%;
+    top:60%;
+    font-size: 12rem;
+    line-height: 0;
+    opacity: .2;
+    color:rgba(255,255,255,1);
+    z-index: 0;
+   }
+}
+    </style>
+</head>
+<body style="background-image: url(./beautiful-constellations-sky-full-stars.jpg);color: white;">
+    <h1 style="place-items: center;display:flex;align-items: center;justify-items: center;align-content: center;justify-content: center;">
+      <img style="width:50px" src="./COD.png" alt="">  <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 2px;font-weight: 300;text-align: center;">COD Server</span>
+    </h1>
+    <div>
+    <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 2px;font-weight: 300;text-align: center;">Activities</h3>
+</div>
+<div class="container h-100">
+    <div class="row align-middle">     
+         <div class="card-group">
+
+      <div class="col-md-6 col-lg-4 column">
+        <div class="card gr-1">
+          <div class="txt">
+            <h1>Gaming </br>
+  </h1>
+            <p>You can hangout with various friends and play various games from all around the world .
+<br>
+                      - Valorant
+<br>
+                      - Among Us
+<br>
+
+                       - League Of Legends
+<br>
+- Life After
+<br>
+- Roblox
+<br>
+            </p>
+
+          </div>
+          <a href="https://discord.gg/q8ZQjY3WCB">more</a>
+          <div class="ico-card">
+            <i class="fa-brands fa-xbox"></i>
+        </div>
+        </div>
+      </div>
+
+    
+      <div class="col-md-6 col-lg-4 column">
+        <div class="card gr-2">
+          <div class="txt">
+            <h1>Developement</br>
+            </h1>
+            <p>For Beginners in Developement there is alot of them who doesn't know from where to begin or even experienced ones who finds a bit of problem in their code and can't figure out the issue this community will try to help u with the technologies if they can</p>
+          </div>
+          <a href="https://discord.gg/q8ZQjY3WCB">more</a>
+        <div class="ico-card">
+            <i class="fa-solid fa-terminal"></i>      </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 column">
+        <div class="card gr-3">
+          <div class="txt">
+            <h1>Talking and Chatting /h1>
+            <p>For those who just want to talk about various topics whatever they are in a condition that the conversation will be respectful or it will be consequences for whoever break the rules. <br>
+            you will be banned and if you're spotted with other username you'll be banned also.</p>
+          </div>
+          <a href="https://discord.gg/q8ZQjY3WCB">more</a>
+        <div class="ico-card">
+            <i class="fa-regular fa-message"></i>        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+    <iframe src="https://discord.com/widget?id=1205950124040388778&theme=dark" width="100%" height="500px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+</body>
+</html>
